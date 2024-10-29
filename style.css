@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 1000px;
+    margin: 50px auto;
+    font-family: Arial;
+}
+
+.content img{
+    width: 70%;
+}   
+
+.content h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.content h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.content p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.comments{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.comments .comment{
+    font-size: 18px;
+    color: rgb(4, 0, 25);
+}
+
+.comments .timing{
+    font-size: 10px;
+    color: rgb(111, 111, 111);
+}
